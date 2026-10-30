@@ -1,19 +1,31 @@
-# JobPortal Pro (HTML, CSS, JavaScript only)
+# JobBridge
 
-The Flask + MySQL job portal rebuilt with **no Python and no database**. Same pages, same flow.
+An Online Job Portal built using HTML, CSS, and JavaScript.
 
 ## Pages
-Home (search, location, job type, stats) · Login · Register · Employer dashboard · Seeker dashboard · Post job · Edit job · Delete job · Job detail · Apply (resume + cover letter) · Applicants (Accept / Reject) · Profile
+- Home page with job search
+- Login and Registration
+- Employer Dashboard
+- Job Seeker Dashboard
+- Post, Edit and Delete Jobs
+- Job Details and Apply for Jobs
+- Applicants Management
+- User Profile
 
-## How to run
-Open `index.html` in your browser.
+## How to Run
+Open index.html in your web browser.
 
-## How to try it
-1. Register an **Employer** and post a job. Log out.
-2. Register a **Job Seeker** (different email) and apply with a resume. Log out.
-3. Log in as the employer, open the job's Applicants, view the resume, Accept or Reject.
-4. Log in as the seeker and see the status change on the dashboard.
+## How to Use
+1. Register as an Employer.
+2. Post a new job.
+3. Register as a Job Seeker.
+4. Search and apply for jobs.
+5. Log in as an Employer to manage applications.
 
-## Note
-Data and resumes are stored in the browser (localStorage and IndexedDB), so all accounts share one browser.
-A real site with many users needs a backend and database.
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## Storage
+Data and resumes are stored in the browser using localStorage and IndexedDB.
